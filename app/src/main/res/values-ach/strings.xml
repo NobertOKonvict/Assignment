@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="toyota">toyota</string>
+    <string name="subaru">subaru</string>
+    <string name="mercedes">merce</string>
+    <string name="settings">sett</string>
+</resources>

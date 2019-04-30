@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CarSale</string>
+    <string name="toyota">TOYOTA</string>
+    <string name="subaru">SUBARU</string>
+    <string name="mercedes">MERCEDES</string>
+    <string name="settings">Settings</string>
+    <string name="exit">Exit</string>
+
+    <string name="welcome">Accueil</string>
+    <string name="email">adresse e-mail</string>
+    <string name="password">mot de passe</string>
+    <string name="login">connexion</string>
+    <string name="signup">Ne pas avoir un compte? signer</string>
+
+    <string name="options">Choisir une Option</string>
+</resources>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_margin="24dp"
+            android:text="@string/options"
+            android:textSize="20dp"
+            android:textColor="@color/colorWhite"/>
+
+        <Button
+            android:id="@+id/toyotaBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/toyota"
+            android:layout_margin="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/textView"
+            android:fontFamily="sans-serif"
+            android:textAllCaps="false"
+            android:textSize="28sp"
+            android:textColor="@color/btn_color"
+            android:background="@drawable/bg_button_rounded"/>
+
+        <Button
+            android:id="@+id/subaruBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/toyotaBtn"
+            android:text="@string/subaru"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="sans-serif"
+            android:textAllCaps="false"
+            android:textSize="28sp"
+            android:textColor="@color/btn_color"
+            android:background="@drawable/bg_button_rounded"/>
+
+        <Button
+            android:id="@+id/mercedesBtn"
+            android:layout_width="fill_parent"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/subaruBtn"
+            android:layout_centerHorizontal="true"
+            android:text="@string/mercedes"
+            android:fontFamily="sans-serif"
+            android:textAllCaps="false"
+            android:textSize="28sp"
+            android:textColor="@color/btn_color"
+            android:background="@drawable/bg_button_rounded"/>
+        <Button
+            android:id="@+id/uploadBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="UPLOAD CAR"
+            android:fontFamily="sans-serif"
+            android:textAllCaps="false"
+            android:textSize="28sp"
+            android:textColor="@color/btn_color"
+            android:background="@drawable/bg_button_rounded"/>
+        <Button
+            android:id="@+id/playmusicBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/uploadBtn"
+            android:text="PLAY MUSIC"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="sans-serif"
+            android:textAllCaps="false"
+            android:textSize="28sp"
+            android:textColor="@color/btn_color"
+            android:background="@drawable/bg_button_rounded"/>
+
+        <Button
+            android:id="@+id/addUser"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/playmusicBtn"
+            android:text="ADD USER"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="sans-serif"
+            android:textAllCaps="false"
+            android:textSize="28sp"
+            android:textColor="@color/btn_color"
+            android:background="@drawable/bg_button_rounded"/>
+
+    </LinearLayout>
+</RelativeLayout>
